@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Output directories from run.sh / test.sh
+/output*/
+out*/
+*.log
+
+# JSON output files
+papers.json
+corpus_analysis.json
+processing.log
+errors.log
+stats.json
+
+# Docker related
+*.tar
+*.img
+
+# System / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Test artifacts
+test_urls.txt

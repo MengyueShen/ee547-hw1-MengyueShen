@@ -1,0 +1,31 @@
+# ---- problem3/.gitignore ----
+# Ignore everything in this folder by default
+*
+
+# Keep this .gitignore itself
+!/.gitignore
+
+# Keep required top-level files
+!/docker-compose.yml
+!/docker-compose.yaml
+!/run_pipeline.sh
+!/test.sh
+!/test_urls.txt
+
+# Keep service folders
+!/fetcher/
+!/processor/
+!/analyzer/
+
+# Inside service folders, keep only the specified files
+/fetcher/*
+!/fetcher/Dockerfile
+!/fetcher/fetch.py
+
+/processor/*
+!/processor/Dockerfile
+!/processor/process.py
+
+/analyzer/*
+!/analyzer/Dockerfile
+!/analyzer/analyze.py
