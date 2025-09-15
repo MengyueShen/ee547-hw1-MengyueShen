@@ -31,7 +31,7 @@ Same as assignment specification.
    ./build.sh
 2. Run with search query, max results, and output directory:
    ```bash
-   ./run.sh "cat:cs.LG" 10 output
+   $ ./run.sh "cat:cs.LG" 10 ./out
 3. Verify outputs in the specified output directory.
 
 ## Problem 3
